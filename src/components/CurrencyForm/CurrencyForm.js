@@ -13,7 +13,7 @@ const CurrencyForm = ({ action }) => {
     e.preventDefault();
 
     action({
-      amount: parseInt(amount),
+      amount: parseFloat(amount),
       from,
       to,
     });
